@@ -1,19 +1,14 @@
-# Shuttle.Core.Json
+# Shuttle.Core.Microsoft.Extensions.Logging
 
 ```
-PM> Install-Package Shuttle.Core.Json
+PM> Install-Package Shuttle.Core.Microsoft.Extensions.Logging
 ```
 
-Json.Net implementation of the `ISerializer` interface.
+Shuttle logging implementation for Microsoft's extension logging adapter
 
 ## Usage
 
 ``` c#
-var serializer = JsonSerializer.Default();
+ Log.Assign(new Logger(loggerFactory.CreateLogger<Program>()));
 ````
 
-You can also specify `JsonSerializerSettings` when using the constructor to create the `JsonSerializer`:
-
-``` c#
-var serializer = new JsonSerializer(new JsonSerializerSettings());
-````
