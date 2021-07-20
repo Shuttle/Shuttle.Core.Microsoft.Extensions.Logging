@@ -5,9 +5,15 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shuttle.Core.Microsoft.Extensions.Logging", "Shuttle.Core.Microsoft.Extensions.Logging\Shuttle.Core.Microsoft.Extensions.Logging.csproj", "{2BB153B8-453B-4F7C-BC09-04F6A218FD82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shuttle.Core.Microsoft.Extensions.Logging.Client", "Shuttle.Core.Microsoft.Extensions.Logging.Client\Shuttle.Core.Microsoft.Extensions.Logging.Client.csproj", "{0B96AF53-C9C5-4F67-AE43-54D05A9DA7FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shuttle.Core.Microsoft.Extensions.Logging.Client", "Shuttle.Core.Microsoft.Extensions.Logging.Client\Shuttle.Core.Microsoft.Extensions.Logging.Client.csproj", "{0B96AF53-C9C5-4F67-AE43-54D05A9DA7FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shuttle.Core.Microsoft.Extensions.Logging.Tests", "Shuttle.Core.Microsoft.Extensions.Logging.Tests\Shuttle.Core.Microsoft.Extensions.Logging.Tests.csproj", "{39281BE7-A842-436B-BC7D-C330707EBFAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shuttle.Core.Microsoft.Extensions.Logging.Tests", "Shuttle.Core.Microsoft.Extensions.Logging.Tests\Shuttle.Core.Microsoft.Extensions.Logging.Tests.csproj", "{39281BE7-A842-436B-BC7D-C330707EBFAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{335584E6-AD66-4BB8-96D5-5EB93638274B}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
